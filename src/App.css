@@ -1,38 +1,124 @@
-.App {
+/* App.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Container wrapping the entire app */
+.app-container {
+  background-color: #f9f9f9;
+  width: 100%;
+  height: 100vh;
+  /* Add your styling here */
+}
+
+.app-center {
+  max-width: 500px;
+  margin: auto;
+}
+
+/* Title styling */
+.app-title {
+  text-align: center;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  padding-top: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+/* Error or load-error message styling */
+.app-error {
+  /* Add your styling here */
+  text-align: center;
+  color: red;
+}
+
+/* Login container */
+.login-container {
+  border: 2px solid #4EA699; /* 2px border with a blue color */
+  border-radius: 10px;       /* Rounded corners */           /* Internal spacing */
+  margin: 20px;              /* Optional external spacing */
+  background-color: #f9f9f9; /* Optional light background color */
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 24px;
+  font-weight: 400;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Username/Password input fields */
+.login-input {
+  /* Add your styling here */
+  width: 220px;
+  height: 30px;
+  margin-left: calc(50% - 117px);
+  margin-bottom: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Login button */
+.login-button {
+  /* Add your styling here */
+  width: 228px;
+  height: 30px;
+  margin-left: calc(50% - 117px);
+  margin-bottom: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Summon section container */
+.summon-container {
+  /* Add your styling here */
 }
 
-.App-link {
-  color: #61dafb;
+.summon-button {
+  background-color: white; /* Blue background */
+  color: #4EA699; /* White text */
+  border: 2px solid #4EA699; /* Remove default border */
+  padding: 20px 30px; /* Button padding */
+  border-radius: 10px; /* Rounded edges */
+  font-size: 18px; /* Adjust font size */
+  cursor: pointer; /* Show pointer on hover */
+  transition: background-color 0.3s ease-in-out;
+  margin-top: 50px;
+  margin-left: calc(50% - 95px)
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Hover effect */
+.summon-button:hover {
+  background-color: #e6eeed; /* Darker blue when hovered */
+}
+
+/* Car status text */
+.car-status {
+  /* Add your styling here */
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #D57A66;
+  margin-top: 50px;
+  font-size: 24px;
+}
+
+/* Message text (for general success/error feedback) */
+.app-message {
+  /* Add your styling here */
+  text-align: center;
+  color: red;
+}
+
+/* Map container */
+.map-container {
+  margin-top: 20px;
+  height: 400px;
+  width: 95%; 
+  margin-left: 2.5%;
 }
