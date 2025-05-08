@@ -13,7 +13,7 @@ function App() {
 
   // Default center for Illinois and zoom level
   const defaultCenter = { lat: 40.092811, lng: -88.235669 };
-  const defaultZoom = 18.5;
+  const defaultZoom = 19;
 
   // Load the Google Maps API
   const { isLoaded, loadError } = useJsApiLoader({
@@ -163,8 +163,8 @@ function App() {
                 fullscreenControl: false,
                 tilt: 0,
                 mapTypeId: 'satellite',
-                draggable: false,
-                gestureHandling: 'none',
+                draggable: true,
+                gestureHandling: 'greedy',
               }}
             >
               {location && (
