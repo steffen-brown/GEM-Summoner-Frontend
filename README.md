@@ -11,5 +11,10 @@ React-based web interface for the **GEM Summoner** project, enabling users to tr
 - Real-time status updates from the backend API  
 
 ## Related Repositories
-This frontend is one part of the complete GEM Summoner system. For details on vehicle-side firmware, ROS nodes, and system architecture, see:  
-🔗 [GEM-Summon-Firmware](https://github.com/steffen-brown/GEM-Summon-Firmware)  
+- Backend API: [GEM-Summon-Backend](https://github.com/steffen-brown/GEM-Summon-Backend)  
+- Vehicle firmware and ROS system: [GEM-Summon-Firmware](https://github.com/steffen-brown/GEM-Summon-Firmware)  
+
+## Running Locally
+```bash
+npm install
+npm start
