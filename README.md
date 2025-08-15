@@ -4,6 +4,9 @@
 
 React-based web interface for the **GEM Summoner** project, enabling users to trigger the autonomous “Summon” sequence for a GEM e2 electric vehicle using the device’s live GPS location.
 
+## Contribution
+This project was fully authored and developed by Steffen Brown, including all code implementation, experimentation, and documentation.
+
 ## Features
 - Uses device GPS as the summon target  
 - Displays current vehicle position  
